@@ -14,7 +14,7 @@ nvm install stable; nvm use stable
 
 ## install ripgrep
 rg --version || cargo install ripgrep
-grep "alias grep=rg" ~/.zshrc || echo "alias grep=rg" >> ~/.zshrc
+# grep "alias grep=rg" ~/.zshrc || echo "alias grep=rg" >> ~/.zshrc
 ## install lazygit
 lazygit -v || brew install jesseduffield/lazygit/lazygit
 ## install goDiskUsage
