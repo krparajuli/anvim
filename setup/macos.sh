@@ -5,7 +5,9 @@ brew -v || /bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/
 
 # Install rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-
+# Install goenv and go
+goenv -h || brew install goenv
+goenv install latest -f; goenv global latest
 # Install node with nvm
 nvm --version || curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | zsh
 nvm install stable; nvm use stable
@@ -20,5 +22,8 @@ gdu-go -v || brew install gdu
 ## install bottom
 btm --version || cargo install bottom
 
+
+
 # Download Meslo NerdFonts
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Meslo.zip
+
