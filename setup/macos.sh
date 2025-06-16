@@ -21,8 +21,8 @@ lazygit -v || brew install jesseduffield/lazygit/lazygit
 gdu-go -v || brew install gdu
 ## install bottom
 btm --version || cargo install bottom
-
-
+## install fd-find
+cargo install fd-find
 
 # Download Meslo NerdFonts
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Meslo.zip
