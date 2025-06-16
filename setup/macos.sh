@@ -1,6 +1,5 @@
 #!/bin/zsh
 
-
 # Install homebrew if not installed
 brew -v || /bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -23,5 +22,3 @@ btm --version || cargo install bottom
 
 # Download Meslo NerdFonts
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Meslo.zip
-
-
